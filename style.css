@@ -42,16 +42,16 @@ sidebar
 .l-sidebar {
   background-color: rgb(240, 240, 255);
   border-right: 8px solid #CCC;
-  width: 200px;
+  width: 265px;
 }
 .l-sidebar ul {
-  padding-top: 60px;
-  padding-left: 23px;
+  padding-top: 54px;
+  padding-left: 22px;
 }
 .l-sidebar ul li {
   list-style: none;
-  margin-bottom: 35px;
-  font-size: 18px;
+  margin-bottom: 33px;
+  font-size: 16px;
 }
 .l-sidebar ul li a {
   color: blue;

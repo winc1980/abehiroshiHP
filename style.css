@@ -26,6 +26,10 @@ main {
   display: flex;
   justify-content: flex-start;
 }
+h1 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 700;
+}
 /*---------------------------------------------------------
 sidebar
 ---------------------------------------------------------*/

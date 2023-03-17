@@ -13,6 +13,8 @@ body * {
 
 body {
   margin: 0;
+  background-image: url(./src/background.jpg);
+  background-repeat: repeat;
 }
 
 p {
@@ -20,5 +22,9 @@ p {
 }
 
 img {
-  width: 100%;
+  width: 20%;
+}
+
+.main_contents {
+  display: flex;
 }

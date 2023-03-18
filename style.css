@@ -33,6 +33,8 @@ h1 {
 .profile_des{
   padding-left: 20px;
 }
+
+
 /*---------------------------------------------------------
 sidebar
 ---------------------------------------------------------*/
@@ -83,4 +85,11 @@ sidebar
 }
 .l-sidebar ul li:nth-of-type(7)::before {
   background-color: rgb(204, 0, 204);
+}
+
+@media screen and (min-width: 1150px) { /*ウィンドウ幅が767px以上の場合に適用*/
+  .main_contents {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

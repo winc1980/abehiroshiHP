@@ -1,14 +1,8 @@
 @charset "UTF-8";
 
 html {
-  font-size: 62.5%;
-  font-family: "Noto Sans", serif;
-}
-
-body * {
-  font-family: "Noto Sans JP", sans-serif;
-  box-sizing: border-box;
-  margin: 0;
+  font-size: 16px;
+  font-family: "Times";
 }
 
 body {
@@ -24,8 +18,9 @@ p {
 img {
   width: 20%;
 }
-
 .main_contents {
+}
+.contents {
   display: flex;
 }
 main {
@@ -33,15 +28,14 @@ main {
   justify-content: flex-start;
 }
 h1 {
-  font-family: 'Noto Serif JP', serif;
-  font-weight: 700;
+  text-align: center;
 }
 /*---------------------------------------------------------
 sidebar
 ---------------------------------------------------------*/
 .l-sidebar {
   background-color: rgb(240, 240, 255);
-  border-right: 8px solid #CCC;
+  border-right: 8px solid #ccc;
   width: 265px;
 }
 .l-sidebar ul {
@@ -57,7 +51,7 @@ sidebar
   color: blue;
 }
 .l-sidebar ul li::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 16px;
   height: 16px;

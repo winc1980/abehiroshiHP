@@ -5,7 +5,7 @@ html {
   font-family: "Times";
 }
 
-body {
+.main_contents {
   margin: 0;
   background-image: url(./src/background.jpg);
   background-repeat: repeat;
@@ -16,7 +16,7 @@ p {
 }
 
 img {
-  width: 20%;
+  width: 350px;
 }
 .main_contents {
 }
@@ -29,6 +29,9 @@ main {
 }
 h1 {
   text-align: center;
+}
+.profile_des{
+  padding-left: 20px;
 }
 /*---------------------------------------------------------
 sidebar

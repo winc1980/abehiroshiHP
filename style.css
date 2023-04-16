@@ -2,13 +2,14 @@
 
 html {
   font-size: 16px;
-  font-family: "Times";
+  font-family: "Times New Roman", Times, serif;
 }
 
 .main_contents {
   margin: 0;
   background-image: url(./src/background.jpg);
   background-repeat: repeat;
+  width: 100%;
 }
 
 p {
@@ -18,10 +19,9 @@ p {
 img {
   width: 350px;
 }
-.main_contents {
-}
 .contents {
   display: flex;
+  justify-content: center;
 }
 main {
   display: flex;
@@ -30,10 +30,9 @@ main {
 h1 {
   text-align: center;
 }
-.profile_des{
+.profile_des {
   padding-left: 20px;
 }
-
 
 /*---------------------------------------------------------
 sidebar
@@ -87,7 +86,8 @@ sidebar
   background-color: rgb(204, 0, 204);
 }
 
-@media screen and (min-width: 1150px) { /*ウィンドウ幅が767px以上の場合に適用*/
+@media screen and (min-width: 1150px) {
+  /*ウィンドウ幅が767px以上の場合に適用*/
   .main_contents {
     padding-left: 20px;
     padding-right: 20px;

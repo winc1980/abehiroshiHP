@@ -8,7 +8,7 @@ html {
 .main_contents {
   margin: 0;
   /* 背景画像のパスを指定しましょう。スライドの補足説明を参照。 */
-  background-image: url(src/background.jpg);
+  background-image: url();
   /* ここまで */
   background-repeat: repeat;
   width: 100%;

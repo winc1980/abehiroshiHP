@@ -7,7 +7,9 @@ html {
 
 .main_contents {
   margin: 0;
-  background-image: url(./src/background.jpg);
+  /* 背景画像のパスを指定しましょう。スライドの補足説明を参照。 */
+  background-image: url();
+  /* ここまで */
   background-repeat: repeat;
   width: 100%;
 }
@@ -87,7 +89,6 @@ sidebar
 }
 
 @media screen and (min-width: 1150px) {
-  /*ウィンドウ幅が767px以上の場合に適用*/
   .main_contents {
     padding-left: 20px;
     padding-right: 20px;

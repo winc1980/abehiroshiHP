@@ -9,5 +9,4 @@ HTML/CSSを実践的に学べる貴重な機会になります。
 
 **ワークショップ時間：** 2時間
 
-
-![スクリーンショット 2023-04-19 013139](https://user-images.githubusercontent.com/28892090/232843873-ea4e067b-2e4e-4f54-9b24-45ee660323c5.png)
+![スクリーンショット 2025-03-26 164743](https://github.com/user-attachments/assets/aab2b927-d829-4ee2-a839-01004e04e33d)

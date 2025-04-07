@@ -24,6 +24,9 @@ img {
   display: flex;
   justify-content: center;
 }
+body{
+  margin: 0;
+}
 main {
   display: flex;
   justify-content: flex-start;
@@ -34,14 +37,17 @@ h1 {
 .profile_des {
   padding-left: 20px;
 }
-
+.current_information {
+  margin-left: 12px;
+}
 /*---------------------------------------------------------
 sidebar
 ---------------------------------------------------------*/
 .l-sidebar {
   background-color: rgb(240, 240, 255);
   border-right: 8px solid #ccc;
-  width: 265px;
+  width: 17.8vw;
+  min-width: 175px;
 }
 .l-sidebar ul {
   padding-top: 54px;
@@ -89,7 +95,7 @@ sidebar
 
 @media screen and (min-width: 1150px) {
   .main_contents {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
   }
 }
